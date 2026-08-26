@@ -27,7 +27,7 @@ define('PLUGIN_API_URL', 'https://kanboard.org/plugins.json');
 // Enable/Disable plugin installer (Disabled by default for security reasons)
 // There is no code review or any approval process to submit a plugin.
 // This is up to the Kanboard instance owner to validate if a plugin is legit.
-define('PLUGIN_INSTALLER', false);
+define('PLUGIN_INSTALLER', true);
 
 // Cache folder to use if cache driver is "file" (must be writeable by the web server user)
 define('CACHE_DIR', DATA_DIR.DIRECTORY_SEPARATOR.'cache');
